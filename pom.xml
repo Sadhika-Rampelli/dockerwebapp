@@ -167,6 +167,11 @@
     </dependencies>
      <build>
         <plugins>
+			<plugin>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.11.1.2311</version> <!-- Use latest stable version -->
+</plugin>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
